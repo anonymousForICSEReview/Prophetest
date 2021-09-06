@@ -12,13 +12,13 @@ We also open source our code in `Code/`.
 
 `BatchBuildGraph1.py` and `BatchBuildGraph2.py` refer to the algorithms constructing Markov Chains of Monkey and WCTester from the raw UI trasition traces, respectively.
 
-`CountMonkey.py` gets the ground-truth of Monkey and WCTester.
+`CountMonkey.py` gets the ground-truth of Monkey and WCTester's test runs.
 
 `calculate.py, evaluation.py, experiment.py, metrics.py, predict.py` are used for calculating stable distributions, stopping times, communication bottlenecks from the constructed Markov Chains.
 
-`saturation_point.py, tool_selection.py theory_accuracy.py` represent the code for three RQs, respectively.
+`saturation_point.py, tool_selection.py theory_accuracy.py` represent the code to get the experimental results for three RQs, respectively.
 
-`data4paper.zip` contains all data used in the evaluation.
+`data4paper.zip` contains all experimental results appearing in the paper.
 
 
 
